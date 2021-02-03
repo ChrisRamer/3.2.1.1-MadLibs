@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<title>Play MadLibs!</title>
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+
+<body>
+	<h1>Fill in some words and you'll get a silly story!</h1>
+	<form action="/story" method="post">
+		<label for="name">A person's name</label>
+		<input id="name" name="name" type="text">
+		<label for="verb">A verb (current tense)</label>
+		<input id="verb" name="verb" type="text">
+		<label for="animal">An animal</label>
+		<input id="animal" name="animal" type="text">
+		<label for="noun">A noun</label>
+		<input id="noun" name="noun" type="text">
+		<label for="number">A number</label>
+		<input id="number" name="number" type="number">
+		<label for="adjective">An adjective</label>
+		<input id="adjective" name="adjective" type="text">
+		<label for="name2">Another name</label>
+		<input id="name2" name="name2" type="text">
+		<button type="submit">Go!</button>
+	</form>
+</body>
+
+</html>
